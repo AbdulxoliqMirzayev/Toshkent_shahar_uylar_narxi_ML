@@ -1,4 +1,51 @@
 # Toshkent_shahar_uylar_narxi_ML
+
+# Housing Price Prediction
+
+This project uses machine learning methods to predict housing prices in Tashkent city. The project includes data cleaning, preparation, and training various models.
+
+## Data
+
+The data is sourced from the `housing_data_08-02-2021.csv` file. This file contains information about house prices, sizes, and locations.
+
+## Libraries
+
+The following libraries are used in this project:
+- **Pandas**: For loading and cleaning data.
+- **NumPy**: For working with numerical data.
+- **scikit-learn**: For creating and evaluating machine learning models.
+
+## Main Steps
+
+1. **Load Data**: Data is loaded from a CSV file.
+2. **Clean Price Column**: Values in the price column are converted to numeric format.
+3. **Clean Size Column**: Text values in the size column are converted to numeric format.
+4. **Fill Null Values**: Null values in each numerical column are filled with the median.
+5. **One-Hot Encoding for Categorical Columns**: Categorical data is converted to numeric format.
+6. **Split Data**: Training and test data are separated.
+7. **Standardization**: Numerical data is standardized.
+8. **Create Models**: Random Forest and Linear Regression models are created and trained.
+9. **Make Predictions**: Predictions are made on the test data.
+10. **Calculate Errors**: Errors are evaluated using RMSE (root mean square error).
+11. **Cross-Validation**: Models are assessed through cross-validation.
+
+## Results
+
+The evaluation results of the models are presented in the form of RMSE. Cross-validation results are also shown, helping to determine the reliability of the models.
+
+## How to Use
+
+1. Download the code.
+2. Install the required libraries.
+3. Run the code and see the results.
+
+## Conclusion
+
+This project tests various methods for predicting housing prices in Tashkent city. Through this code, you can understand the essential steps of the machine learning process.
+
+
+
+#############################################################################################################################################
 # Housing Price Prediction
 
 Ushbu loyiha Toshkent shahridagi uylar narxini bashorat qilish uchun mashinani o'rganish usullaridan foydalanadi. Loyiha ma'lumotlarni tozalash, tayyorlash va turli modelni o'qitishni o'z ichiga oladi. 
